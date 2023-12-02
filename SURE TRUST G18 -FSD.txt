@@ -19,4 +19,6 @@ Assignment 4
 
 Day5 2nd December  //I started from here
 Assignment 5
+Installing Git & VSCode
+Pushing Code files from VSCode to GITHUB using commands
 
