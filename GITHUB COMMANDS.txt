@@ -1,0 +1,7 @@
+git config --global user.email "ENTER GITHUB MAIL ID"
+
+git config --global user.name "GITHUB USER NAME"
+
+git config --global code.editor "code --wait"
+
+got config --global -e
