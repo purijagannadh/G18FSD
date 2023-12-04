@@ -1,3 +1,5 @@
+GIT COMMANDS
+
 git config --global user.email "ENTER GITHUB MAIL ID"
 
 git config --global user.name "GITHUB USER NAME"
@@ -5,3 +7,14 @@ git config --global user.name "GITHUB USER NAME"
 git config --global code.editor "code --wait"
 
 got config --global -e
+
+
+
+GITHUB VSCODE commands
+
+git init
+git add .
+git commit -m "firat commit"
+git branch -M main
+git remote add origin [repository link]
+git push -u origin main
