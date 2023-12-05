@@ -1,0 +1,5 @@
+DAY 5
+02/12/2023
+
+Installing Vscode ,Github and connectting github with VS code
+uploading of files and folders to GITHUB

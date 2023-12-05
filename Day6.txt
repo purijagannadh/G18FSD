@@ -1,0 +1,28 @@
+DAY 6 
+04/12/2023
+
+HTML from W3 schools 
+-introduction 
+-Editors (VS code)
+-HTML Elements
+-HTML attributes
+-Headings
+-Paragraphs
+-Styles
+-Formatting
+-Quotations
+-HTML links
+-Bookmarks
+-Images
+-Favicon (website icon logo on web)
+-Tables
+-
+Asignment- explore HTML TABLES FROM W3 schools upto col row span
+
+CSS from W3 schools
+-Introduction
+-internal styling
+-External css Styling
+-CSS Selectors
+-
+
