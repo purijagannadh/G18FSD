@@ -27,6 +27,11 @@ Pushing Code files from VSCode to GITHUB using commands
 Day6 4th December 
 Assignment 6- Explore HTML TABLES FROM W3 schools upto col row span
 
+Day7 5thDec
+
+Day8 6th December
+Assignment given
+
 
 
 

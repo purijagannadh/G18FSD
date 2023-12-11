@@ -1,0 +1,87 @@
+<!-- create a html page any register form.html
+
+creative the web page , with header ,footer , aside having nav
+with some menu on the left and in the main  a form 
+Form should accept :
+firstName
+lastName
+email
+phoneNumber
+gender -- radio
+city -- select option for drop down
+hobbies : --checkbox
+photo -- input type as file
+idproof  -- input type as file -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssignmentDay8</title>
+    <link rel="stylesheet" href="AssDay8.css">
+</head>
+<body style="background-color: bisque;">
+
+<!-- Header Section-->
+<div class="header"> 
+    <header> USER Registration Form</header> <hr>
+</div>
+<br>
+
+<div class="myform">
+<form action="/submit" method="post">
+<!-- Text input Firstname & LastName -->
+    <label for="Firstname">Firstname:</label>
+    <input type="text" id="Firstname" name="Firstname" placeholder="Enter Firstname" required>
+    <br><br>
+    <label for="LastName">Lastname:</label>
+    <input type="text" id="Lastname" name="Lastname" placeholder="Enter Last/SurName" required>
+    <br><br>
+<!-- Input user Email -->
+    <label for="EmailId">Email Address:</label>
+    <input type="email" id="EmailId" name="Email Address" placeholder="Enter your Email id" required>
+    <br><br>
+<!-- Input for Mobile number -->
+    <label for="Number">Mobile Number</label>
+    <input type="tel" id="Number" placeholder="Enter your mobile number" pattern="[0-9]{10}" required>
+    <br><br>
+<!-- Input for Gender -->
+    <label for="radio">Choose Your Gender</label> <br>
+    <input type="radio" name="gender" id="Male">
+    <label for="Male">Male</label> <br>
+    <input type="radio" name="gender" id="Female">
+    <label for="Female">Female</label> <br>
+    <input type="radio" name="gender" id="Trans">
+    <label for="Trans">Trans</label>
+    <br><br>
+<!-- Input for City -->
+    <label for="Cities">Choose Your City</label>
+    <select name="Cities" id="">Cities
+        <option value="Kochi">Kochi (Kerala)</option>
+        <option value="Bangalore">Bangalore (Karnataka)</option>
+        <option value="Kollam">Kollam (Kerala)</option>
+    </select>
+    <br><br>
+<!-- Input for Hobbies -->
+    <label for="Hobbies">Select Your Hobbies</label> <br>
+    <input type="checkbox" id="Eat" name="Eating" >
+    <label for="Eat"> Eat</label> <br>
+    <input type="checkbox" id="Code" name="Coding" checked>
+    <label for="Code"> Code</label> <br>
+    <input type="checkbox" id="Sleep" name="Sleeping" >
+    <label for="Sleep"> Sleep</label> <br>
+<!-- Input for Photo ,ID Proof Upload -->
+    <h4> Please upload your image</h4>
+    <input type="file" id="photo" name="userimage">
+    <h4> Please upload your ID Proof</h4>
+    <input type="file" id="IDproof" name="IDproof">
+    <br><br>
+
+    <input type="submit" value="Submit" id="submit" >
+
+</form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+Day 8
+06/12/2023
+class by Pratyusha
+HTML Forms
+Form Attributes
+
+Pratyusha Ravilla 8:23 PM
+https://developer.mozilla.org/en-US/docs/Web/HTML
+https://www.codewithharry.com/tutorial/html-home/
+
+Assignment 
+assignment
+1. create a html page any register form.html
+
+creative the web page , with header ,footer , aside having nav
+with some menu on the left and in the main  a form 
+Form should accept :
+firstName
+lastName
+email
+phoneNumber
+gender -- radio
+city -- select option for drop down
+hobbies : --checkbox
+photo -- input type as file
+idproof  -- input type as file

@@ -1,0 +1,26 @@
+.header{
+    text-align: center;
+    color: darkblue;
+    background-color: yellow;
+}
+label{
+    width: 150px;
+    display: inline-block;
+}
+form{
+    background-color: gainsboro;
+    width: 350px;
+    border-radius: 2%;
+    padding: 30px;
+    
+}
+
+#submit{
+    width: 100%;
+    margin-top: 10px;
+    background-color: lightskyblue;   
+}
+.myform{
+    display: flex;
+    justify-content: center;
+}
